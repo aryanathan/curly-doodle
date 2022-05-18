@@ -16,7 +16,15 @@ public class Exercise_01 {
 
     public static void main(String[] args) {
 
-        // write code here
+        double d = 123.456;
+        System.out.println("double d is: " + d);
+
+        float b = 340282346638528860000000000000000000000.000000f;
+        System.out.println("float b is: " + b);
+
+        char c ='A';
+        System.out.println("char c is: " + c);
+
 
     }
 }

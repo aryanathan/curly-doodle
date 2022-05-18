@@ -12,7 +12,11 @@ public class Exercise_06 {
 
     public static void main(String[] args) {
 
-        // write code here
-
+    double r = 3.14;
+    double h = 5;
+    double v = r*r*3.145*h;
+    double s = 2*r*3.145*h+r*r*3.145*2;
+        System.out.println("The volume is :" + v);
+        System.out.println("The surface area is :" + s);
     }
 }
